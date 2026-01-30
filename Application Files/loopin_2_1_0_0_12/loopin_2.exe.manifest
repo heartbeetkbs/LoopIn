@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="loopin_2.exe" version="1.0.0.12" publicKeyToken="f78568c4e59345fb" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="NDNR ico.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="loopin_2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="loopin_2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>03AFtUgIeD/opuHU6E9OoekGusWpCWTFJtNGDKY/Pi4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dTAcPyP9zCTwi6ASIEMCWQxe8B4dkLx/rtpt0MTjIGE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="loopin_2.exe" size="468944">
+      <assemblyIdentity name="loopin_2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fEIaOTSa3/mkc/W16zE7xC1aDrW+vHTwzCyXhskHJRk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="721320">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8MB68OhNTdTaS9eCO6RTW8BIGzv2I+1Atlm2gUemu3U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="loopin_2.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="loopin_intro.mp4" size="3788948">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fpxginyDQbLxuJwr8jilCsMZrGFqv1kzTnFpVA8RmRo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NDNR ico.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VXgOr+2tP5xiPKpUXnTQtHrAomdQEnYJgrNmbdIi8zk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-F98L0K5\pc" issuerKeyHash="628355675f5b363ea21454b28a920f3fbd7641dd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>R7EA4+DYsUGyqxfhSgq8CfYk+CNBCTpNWHmh+fQ117Q=</DigestValue></Reference></SignedInfo><SignatureValue>Sr1NOGDIMbhcb3Toaw+HwmivHhnF6ozenHrmhdjCciCOqPsoavMvmMCmf+s3IIwFZ+zLNckTgN0RF0GIcuOKMshF8vlWU9+oTJrAC9EBkbig4YruFAP+zCsakPCgGsYN6TaOnEzawdM6g+n80MlgMTHvN3vBxHwtKb3I3Smoshc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4fqn6VBa17a59/bLkSfkuZT87wgs0sii/Bn0IS59vTqy/McNSwhjrjijYAkX4uZMjUjwiltfbIE3Vagj+q/IS/PdfcG4Q2z48f8nlHAkT9XpBAK4GEbNUZ566RBsn+gaBzcJrp3JdvbMMGDLalJ8J6BC3F4MPM5CnxN/y6NfNYk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b4d735f4f9a179584d3a094123f824f609bc0a4ae117abb241b1d8e0e300b147" Description="" Url=""><as:assemblyIdentity name="loopin_2.exe" version="1.0.0.12" publicKeyToken="f78568c4e59345fb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-F98L0K5\pc</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LIm0v3pNFx99UYbbDVZIm+dG0iRE0K7KY+B7mSBNi6s=</DigestValue></Reference></SignedInfo><SignatureValue>T/jZJCMsSyCWEDpKh8wVwKzR2YIr09tZpCbKHijeNL9hPgeVeu0vwYhJoPglKr8jK9sOdF2T6J+8c5R+zBdRI4Ut1OZ4263L9B/EOy334bvfABsNzVDv1f0oQccFu7hcVcwPO3x/cvaiSmNVSU3kcIhfwwWrcbFJ0mtydR6OkCY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4fqn6VBa17a59/bLkSfkuZT87wgs0sii/Bn0IS59vTqy/McNSwhjrjijYAkX4uZMjUjwiltfbIE3Vagj+q/IS/PdfcG4Q2z48f8nlHAkT9XpBAK4GEbNUZ566RBsn+gaBzcJrp3JdvbMMGDLalJ8J6BC3F4MPM5CnxN/y6NfNYk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQO0nx033Y3KdBetbW6JZYeDANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtAEYAOQA4AEwAMABLADUAXABwAGMwHhcNMjYwMTI5MTgyMDE2WhcNMjcwMTMwMDAyMDE2WjAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtAEYAOQA4AEwAMABLADUAXABwAGMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOH6p+lQWte2uff2y5En5LmU/O8ILNLIovwZ9CEufb06svzHDUsIY644o2AJF+LmTI1I8IpbX2yBN1WoI/qvyEvz3X3BuENs+PH/J5RwJE/V6QQCuBhGzVGeeukQbJ/oGgc3Ca6dyXb2zDBgy2pSfCegQtxeDDzOQp8Tf8ujXzWJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAOWZwFOTNA+4bcUWbVY+zjcP2mVEyvL+hiDKepMKTaSx5nX4AYjPkJguKeoEB6CfCPP/4y2fwsA+54gfndZSEe6afheYJWKSwmd0WDoosoPYYnbUxCWRmHv0sljnNUtU2Lyt8Q6MkcZ8pn0gBd6b0M0mG7BaUirsQeBiMJNLUTcY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
