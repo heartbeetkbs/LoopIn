@@ -1,7 +1,9 @@
-# ClickOnce: satır sonu/encoding dönüşümü olmasın
-*.application binary
-*.manifest binary
-*.config binary
-*.deploy binary
-*.exe binary
-*.dll binary
+* text=auto
+
+# ClickOnce artifacts: never alter line endings / contents
+*.application -text
+*.manifest -text
+*.config -text
+*.deploy -text
+*.exe -text
+*.dll -text
