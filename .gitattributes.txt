@@ -1,7 +1,0 @@
-# ClickOnce: satır sonu/encoding dönüşümü olmasın
-*.application binary
-*.manifest binary
-*.config binary
-*.deploy binary
-*.exe binary
-*.dll binary

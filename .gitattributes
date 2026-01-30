@@ -1,0 +1,9 @@
+* text=auto
+
+# ClickOnce artifacts: never alter line endings / contents
+*.application -text
+*.manifest -text
+*.config -text
+*.deploy -text
+*.exe -text
+*.dll -text
